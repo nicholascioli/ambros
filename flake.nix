@@ -24,6 +24,7 @@
           scheme-basic
           # Packages below
           
+          footmisc
           import
           latex-bin
           parskip
