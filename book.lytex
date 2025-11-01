@@ -12,12 +12,10 @@
 \begin{document}
 
 % Create the title page
-\import{./src/prelude}{title.tex}
+\import{./src}{title.tex}
 
 \frontmatter
 \import{./src/prelude}{prologo.tex}
 \import{./src/prelude}{instrucciones.tex}
-
-\tableofcontents
 
 \end{document}
