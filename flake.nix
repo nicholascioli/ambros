@@ -66,6 +66,9 @@
               --pdf \
               $src/book.lytex
 
+            # Make the PDF reproducible
+            echo '\pdfvariable suppressoptionalinfo 512\relax' >> .out/book.tex
+
             # Compile the book
             env \
               SOURCE_DATE_EPOCH=${toString self.lastModified}
