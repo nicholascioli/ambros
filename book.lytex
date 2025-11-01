@@ -6,6 +6,9 @@
 \usepackage[stable]{footmisc}
 \usepackage{setspace}
 
+% Custom functions
+\newcommand{\todo}{\textbf{TODO} }
+
 \begin{document}
 
 % Create the title page
@@ -13,6 +16,7 @@
 
 \frontmatter
 \import{./src/prelude}{prologo.tex}
+\import{./src/prelude}{instrucciones.tex}
 
 \tableofcontents
 
