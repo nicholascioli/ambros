@@ -19,7 +19,14 @@
       filter = nix-filter.lib;
 
       tex = pkgs.texlive.combine {
-        inherit (pkgs.texlive) scheme-minimal latex-bin latexmk titling;
+        inherit
+          (pkgs.texlive)
+          scheme-basic
+          # Packages below
+          
+          latex-bin
+          titling
+          ;
       };
     in {
       devShells.default = pkgs.mkShell {
@@ -27,6 +34,50 @@
           lilypond
           tex
         ];
+      };
+
+      packages = rec {
+        default = book;
+
+        book = pkgs.stdenvNoCC.mkDerivation rec {
+          pname = "ambros-bandoneon-method";
+          version = "0.0.1";
+
+          # Only include latex and lilypond related files
+          src = filter {
+            root = self;
+            include = [
+              (filter.matchExt "ly")
+              (filter.matchExt "lytex")
+              (filter.matchExt "tex")
+            ];
+          };
+
+          buildInputs = [pkgs.coreutils pkgs.lilypond tex];
+          phases = ["unpackPhase" "buildPhase" "installPhase"];
+
+          buildPhase = ''
+            export PATH="${pkgs.lib.makeBinPath buildInputs}";
+
+            # Build the sheet music with lilypond
+            mkdir .out/
+            lilypond-book \
+              --output=.out \
+              --pdf \
+              $src/book.lytex
+
+            # Compile the book
+            env \
+              SOURCE_DATE_EPOCH=${toString self.lastModified}
+            \
+            pdflatex .out/book
+          '';
+
+          installPhase = ''
+            mkdir -p $out
+            cp book.pdf $out/
+          '';
+        };
       };
     });
 }

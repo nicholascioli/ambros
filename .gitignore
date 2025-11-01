@@ -1,4 +1,4 @@
 .direnv/
-out/
+result
 
 *.pdf
