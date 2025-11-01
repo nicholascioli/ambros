@@ -26,6 +26,8 @@
           
           import
           latex-bin
+          parskip
+          setspace
           titling
           ;
       };

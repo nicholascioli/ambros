@@ -1,7 +1,9 @@
-\documentclass[a4paper,landscape]{book}
+\documentclass{book}
 
 % Needed packages
 \usepackage{import}
+\usepackage[skip=8pt plus1pt, indent=30pt]{parskip}
+\usepackage{setspace}
 
 \begin{document}
 

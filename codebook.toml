@@ -1,5 +1,13 @@
-dictionaries = ["es"]
+dictionaries = [
+    "en_us",
+    "es",
+]
+
+flag_words = [
+    "todo",
+]
 
 words = [
     "bandoneón",
+    "digitación",
 ]
