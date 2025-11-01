@@ -27,9 +27,23 @@
           footmisc
           import
           latex-bin
+          lyluatex
           parskip
           setspace
           titling
+          # Needed by lyluatex
+          
+          minibox
+          collection-luatex
+          currfile
+          environ
+          filehook
+          luaoptions
+          luatexbase
+          metalogo
+          pdflscape
+          pdfpages
+          xkeyval
           ;
       };
     in {
@@ -51,7 +65,7 @@
           src = filter {
             root = self;
             include = [
-              ./book.lytex
+              ./book.tex
               "src"
             ];
           };
@@ -61,22 +75,16 @@
 
           buildPhase = ''
             export PATH="${pkgs.lib.makeBinPath buildInputs}";
+            export HOME=$(mktemp -d)
 
-            # Build the sheet music with lilypond
-            mkdir .out/
-            lilypond-book \
-              --output=.out \
-              --pdf \
-              $src/book.lytex
-
-            # Make the PDF reproducible
-            echo '\pdfvariable suppressoptionalinfo 512\relax' >> .out/book.tex
-
-            # Compile the book
             env \
-              SOURCE_DATE_EPOCH=${toString self.lastModified}
-            \
-            pdflatex .out/book
+              SOURCE_DATE_EPOCH=${toString self.lastModified} \
+              \
+              lualatex \
+                -interaction=nonstopmode \
+                -output-format=pdf \
+                -shell-escape \
+                $src/book.tex
           '';
 
           installPhase = ''

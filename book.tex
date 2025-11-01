@@ -3,6 +3,7 @@
 % Needed packages
 \usepackage[spanish, provide=*]{babel}
 \usepackage{import}
+\usepackage{lyluatex}
 \usepackage[skip=8pt plus1pt, indent=30pt]{parskip}
 \usepackage[stable]{footmisc}
 \usepackage{setspace}
@@ -18,5 +19,8 @@
 \frontmatter
 \import{./src/prelude}{prologo.tex}
 \import{./src/prelude}{instrucciones.tex}
+
+\mainmatter
+\import{./src/theory}{signos.tex}
 
 \end{document}
