@@ -6,6 +6,11 @@
 \begin{document}
 
 % Create the title page
-\import{./src}{title.tex}
+\import{./src/prelude}{title.tex}
+
+\frontmatter
+\import{./src/prelude}{prologo.tex}
+
+\tableofcontents
 
 \end{document}

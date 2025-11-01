@@ -1,0 +1,5 @@
+dictionaries = ["es"]
+
+words = [
+    "bandoneón",
+]
