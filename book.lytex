@@ -1,6 +1,7 @@
 \documentclass{book}
 
 % Needed packages
+\usepackage[spanish, provide=*]{babel}
 \usepackage{import}
 \usepackage[skip=8pt plus1pt, indent=30pt]{parskip}
 \usepackage[stable]{footmisc}
