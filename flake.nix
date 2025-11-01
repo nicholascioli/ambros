@@ -24,6 +24,7 @@
           scheme-basic
           # Packages below
           
+          import
           latex-bin
           titling
           ;
@@ -47,9 +48,8 @@
           src = filter {
             root = self;
             include = [
-              (filter.matchExt "ly")
-              (filter.matchExt "lytex")
-              (filter.matchExt "tex")
+              ./book.lytex
+              "src"
             ];
           };
 

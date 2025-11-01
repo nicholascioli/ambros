@@ -1,19 +1,11 @@
 \documentclass[a4paper,landscape]{book}
-\usepackage{titling}
 
-\newcommand{\subtitle}[1]{%
-  \posttitle{%
-    \par\end{center}
-    \begin{center}\large#1\end{center}
-    \vskip0.5em}%
-}
+% Needed packages
+\usepackage{import}
 
 \begin{document}
 
-\title{AMBROS}
-\subtitle{METODO COMPLETO PARA EL ESTUDIO DEL BANDONEON}
-\author{Ricordi Americana}
-
-\maketitle
+% Create the title page
+\import{./src}{title.tex}
 
 \end{document}
