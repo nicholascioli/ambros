@@ -2,11 +2,21 @@
 
 % Needed packages
 \usepackage[spanish, provide=*]{babel}
+\usepackage{caption}
 \usepackage{import}
 \usepackage{lyluatex}
+\usepackage{multicol}
+\usepackage{musicography}
+\usepackage[margin=0.5in]{geometry}
 \usepackage[skip=8pt plus1pt, indent=30pt]{parskip}
 \usepackage[stable]{footmisc}
 \usepackage{setspace}
+\usepackage{titlesec}
+
+% Style overrides
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries}{}{0pt}{\Large}
+\renewcommand{\arraystretch}{1.5}
 
 % Custom functions
 \newcommand{\todo}{\textbf{TODO} }

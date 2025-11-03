@@ -2,6 +2,67 @@
 
 \begin{center}
 
-El pentagrama \lilypondfile[quote,noindent]{screech-and-boink.ly}
+% Staff
+\begin{lilypond}
+\new Staff
+  \with {
+    instrumentName = "El pentagrama"
+  }
+  {
+    \omit Staff.Clef
+    \omit Staff.TimeSignature
+
+    \override Score.BarLine.stencil = ##f
+    \repeat unfold 8 { s1 }
+    \revert Score.BarLine.stencil
+  }
+\end{lilypond}
+
+% Clefs
+\textbf{La clave de Sol} \lilypondfile[insert=inline,voffset=0pt]{./signos/clave_sol.ly}
+\hspace{1cm}
+\textbf{La clave de Fa} \lilypondfile[insert=inline,voffset=-2pt]{./signos/clave_fa.ly}
+
+% Staff lines
+\lilypondfile[insert=inline,staffsize=26]{./signos/lineas.ly}
+\lilypondfile[insert=inline,staffsize=26]{./signos/lineas_suplementarios.ly}
+
+{ \large \textbf{El nombre de las notas} }
+\lilypondfile{./signos/nombres.ly}
+
+\begin{multicols}{3}
+\begin{tabular}{ l r }
+    Sostenido & \musSharp \\
+    Doble sostenido & \musDoubleSharp \\
+    Bemol & \musFlat \\
+    Doble bemol & \musDoubleFlat \\
+    Becuardo & \musNatural \\
+    \hline
+\end{tabular}
+
+\begin{tabular}{ l r }
+Compasillo & \meterC \\
+.. o cuatro por cuatro & $\frac{4}{4}$ \\
+Compasillo abreviado & \meterCutC \\
+.. o dos por dos & $\frac{2}{2}$ \\
+Dos por cuatro & $\frac{2}{4}$ \\
+\hline
+\end{tabular}
+
+\begin{tabular}{ l r }
+Tres por cuatro & $\frac{3}{4}$ \\
+Tres por ocho & $\frac{3}{8}$ \\
+Seis por ocho & $\frac{6}{8}$ \\
+Nueve por ocho & $\frac{9}{8}$ \\
+Doce por ocho & $\frac{12}{8}$ \\
+\hline
+\end{tabular}
+\end{multicols}
+
+{ \large \textbf{Notas enarmónicas} }
+\lilypondfile{./signos/enarmonicas.ly}
+
+{ \large \textbf{Lineas divisorias del compás y signos de repetición} }
+\lilypondfile{./signos/compas.ly}
 
 \end{center}

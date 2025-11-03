@@ -2,3 +2,8 @@
 result
 
 *.pdf
+
+# Latex related files
+*.aux
+*.log
+tmp-ly/

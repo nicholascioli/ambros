@@ -24,12 +24,15 @@
           scheme-basic
           # Packages below
           
+          caption
           footmisc
           import
           latex-bin
           lyluatex
+          musicography
           parskip
           setspace
+          titlesec
           titling
           # Needed by lyluatex
           
@@ -43,12 +46,18 @@
           metalogo
           pdflscape
           pdfpages
+          varwidth
           xkeyval
+          # Needed by musicography
+          
+          musixtex-fonts
+          stackengine
           ;
       };
     in {
       devShells.default = pkgs.mkShell {
         buildInputs = with pkgs; [
+          inotify-tools
           lilypond
           tex
         ];
