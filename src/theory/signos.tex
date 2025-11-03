@@ -28,7 +28,7 @@
 \lilypondfile[insert=inline,staffsize=26]{./signos/lineas.ly}
 \lilypondfile[insert=inline,staffsize=26]{./signos/lineas_suplementarios.ly}
 
-{ \large \textbf{El nombre de las notas} }
+\section{El nombre de las notas}
 \lilypondfile{./signos/nombres.ly}
 
 % Musical Symbols
@@ -62,10 +62,33 @@ Doce por ocho & $\frac{12}{8}$ \\
 \end{multicols}
 
 % Accidentals and staff
-{ \large \textbf{Notas enarmónicas} }
+\section{Notas enarmónicas}
 \lilypondfile{./signos/enarmonicas.ly}
 
-{ \large \textbf{Lineas divisorias del compás y signos de repetición} }
+\section{Lineas divisorias del compás y signos de repetición}
 \lilypondfile{./signos/compas.ly}
+
+% Note notation
+\section{El nombre de las Figuras y Silencios}
+{\large\bf
+    \begin{tabular}{ l r | r }
+    La figura de la - Redonda - & \lilySymbol{c1} & \\
+    El silencio de un compás entero - & & \lilySymbol{r1} \\
+    La figura y el silencio de la Blanca & \lilySymbol{\stemDown c2} & \lilySymbol{r2} \\
+    "\dotfill" \hspace{0.5cm} Negra - & \lilySymbol{\stemDown c4} & \lilySymbol{r4} \\
+    "\dotfill" \hspace{0.5cm} Corchea - & \lilySymbol{\stemDown c8} & \lilySymbol{r8} \\
+    "\dotfill" \hspace{0.5cm} Semicorchea & \lilySymbol{\stemDown c16} & \lilySymbol{r16} \\
+    "\dotfill" \hspace{0.5cm} Fusa - & \lilySymbol{\stemDown c32} & \lilySymbol{r32} \\
+    "\dotfill" \hspace{0.5cm} Semifusa & \lilySymbol{\stemDown c64} & \lilySymbol{r64} \\
+    \end{tabular}
+}
+
+% Note durations
+\section{Las Figuras y su valor comparativo}
+\lilypondfile{./signos/valor.ly}
+
+% Dotted notes
+\section{El puntillo y doble puntillo}
+\lilypondfile{./signos/puntillo.ly}
 
 \end{center}
