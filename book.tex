@@ -8,10 +8,13 @@
 \usepackage{multicol}
 \usepackage{musicography}
 \usepackage[margin=0.5in]{geometry}
+\usepackage{graphicx}
 \usepackage[skip=8pt plus1pt, indent=30pt]{parskip}
 \usepackage[stable]{footmisc}
 \usepackage{setspace}
 \usepackage[center]{titlesec}
+
+\graphicspath{ { ./imgs/ } }
 
 % Style overrides
 \renewcommand\thesection{}
@@ -35,7 +38,9 @@
 
 \mainmatter
 \import{./src/theory}{signos.tex}
+\import{./src/theory}{teclado.tex}
 
+\pagebreak
 \import{./src}{index.tex}
 
 \end{document}
