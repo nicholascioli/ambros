@@ -14,6 +14,12 @@
             }
         }
     >>
+
+    % Fill all available space
+    \layout {
+        ragged-right = ##f
+        ragged-last = ##f
+    }
 }
 
 \score {
@@ -33,4 +39,10 @@
             }
         }
     >>
+
+    % Fill all available space
+    \layout {
+        ragged-right = ##f
+        ragged-last = ##f
+    }
 }

@@ -64,4 +64,10 @@ common = {
             \repeat unfold 3 { c[ c c c c c c c c c c c c c c c ] }
         }
     >>
+
+    % Fill all available space
+    \layout {
+        ragged-right = ##f
+        ragged-last = ##f
+    }
 }

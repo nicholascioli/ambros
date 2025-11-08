@@ -1,32 +1,32 @@
-\begin{center}
-
 \section{Signos de la música}
     \label{chap:signos}
 
-% Staff
-\begin{lilypond}
-\new Staff
-  \with {
-    instrumentName = "El pentagrama"
-  }
-  {
-    \omit Staff.Clef
-    \omit Staff.TimeSignature
+\begin{center}
+    % Staff
+    \begin{lilypond}
+    \new Staff
+    \with {
+        instrumentName = "El pentagrama"
+    }
+    {
+        \omit Staff.Clef
+        \omit Staff.TimeSignature
 
-    \override Score.BarLine.stencil = ##f
-    \repeat unfold 8 { s1 }
-    \revert Score.BarLine.stencil
-  }
-\end{lilypond}
+        \override Score.BarLine.stencil = ##f
+        \repeat unfold 8 { s1 }
+        \revert Score.BarLine.stencil
+    }
+    \end{lilypond}
 
-% Clefs
-\textbf{La clave de Sol} \lilypondfile[insert=inline,voffset=0pt]{./signos/clave_sol.ly}
-\hspace{1cm}
-\textbf{La clave de Fa} \lilypondfile[insert=inline,voffset=-2pt]{./signos/clave_fa.ly}
+    % Clefs
+    \textbf{La clave de Sol} \lilypondfile[insert=inline,voffset=0pt]{./signos/clave_sol.ly}
+    \hspace{1cm}
+    \textbf{La clave de Fa} \lilypondfile[insert=inline,voffset=-2pt]{./signos/clave_fa.ly}
 
-% Staff lines
-\lilypondfile[insert=inline,staffsize=26]{./signos/lineas.ly}
-\lilypondfile[insert=inline,staffsize=26]{./signos/lineas_suplementarios.ly}
+    % Staff lines
+    \lilypondfile[insert=inline,staffsize=26]{./signos/lineas.ly}
+    \lilypondfile[insert=inline,staffsize=26]{./signos/lineas_suplementarios.ly}
+\end{center}
 
 \section{El nombre de las notas}
 \lilypondfile{./signos/nombres.ly}
@@ -69,19 +69,21 @@ Doce por ocho & $\frac{12}{8}$ \\
 \lilypondfile{./signos/compas.ly}
 
 % Note notation
-\section{El nombre de las Figuras y Silencios}
-{\large\bf
-    \begin{tabular}{ l r | r }
-    La figura de la - Redonda - & \lilySymbol{c1} & \\
-    El silencio de un compás entero - & & \lilySymbol{r1} \\
-    La figura y el silencio de la Blanca & \lilySymbol{\stemDown c2} & \lilySymbol{r2} \\
-    "\dotfill" \hspace{0.5cm} Negra - & \lilySymbol{\stemDown c4} & \lilySymbol{r4} \\
-    "\dotfill" \hspace{0.5cm} Corchea - & \lilySymbol{\stemDown c8} & \lilySymbol{r8} \\
-    "\dotfill" \hspace{0.5cm} Semicorchea & \lilySymbol{\stemDown c16} & \lilySymbol{r16} \\
-    "\dotfill" \hspace{0.5cm} Fusa - & \lilySymbol{\stemDown c32} & \lilySymbol{r32} \\
-    "\dotfill" \hspace{0.5cm} Semifusa & \lilySymbol{\stemDown c64} & \lilySymbol{r64} \\
-    \end{tabular}
-}
+\begin{center}
+    \section{El nombre de las Figuras y Silencios}
+    {\large\bf
+        \begin{tabular}{ l r | r }
+        La figura de la - Redonda - & \lilySymbol{c1} & \\
+        El silencio de un compás entero - & & \lilySymbol{r1} \\
+        La figura y el silencio de la Blanca & \lilySymbol{\stemDown c2} & \lilySymbol{r2} \\
+        "\dotfill" \hspace{0.5cm} Negra - & \lilySymbol{\stemDown c4} & \lilySymbol{r4} \\
+        "\dotfill" \hspace{0.5cm} Corchea - & \lilySymbol{\stemDown c8} & \lilySymbol{r8} \\
+        "\dotfill" \hspace{0.5cm} Semicorchea & \lilySymbol{\stemDown c16} & \lilySymbol{r16} \\
+        "\dotfill" \hspace{0.5cm} Fusa - & \lilySymbol{\stemDown c32} & \lilySymbol{r32} \\
+        "\dotfill" \hspace{0.5cm} Semifusa & \lilySymbol{\stemDown c64} & \lilySymbol{r64} \\
+        \end{tabular}
+    }
+\end{center}
 
 % Note durations
 \section{Las Figuras y su valor comparativo}
@@ -90,5 +92,3 @@ Doce por ocho & $\frac{12}{8}$ \\
 % Dotted notes
 \section{El puntillo y doble puntillo}
 \lilypondfile{./signos/puntillo.ly}
-
-\end{center}

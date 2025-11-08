@@ -65,4 +65,10 @@ common = {
             }
         >>
     >>
+
+    % Fill all available space
+    \layout {
+        ragged-right = ##f
+        ragged-last = ##f
+    }
 }

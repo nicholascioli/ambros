@@ -4,7 +4,7 @@
             \omit Staff.TimeSignature
             \time 2/4
 
-            \override Lyrics.LyricSpace.minimum-distance = #2
+            \override Lyrics.LyricSpace.minimum-distance = #1.2
 
             cis4 des |
             fis ges |
@@ -24,4 +24,10 @@
             }
         }
     >>
+
+    % Fill all available space
+    \layout {
+        ragged-right = ##f
+        ragged-last = ##f
+    }
 }
