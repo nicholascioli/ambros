@@ -60,6 +60,12 @@
           inotify-tools
           lilypond
           tex
+
+          # For scripts
+          nodejs
+
+          # For embedding SVGs into latex
+          inkscape
         ];
       };
 

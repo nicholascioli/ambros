@@ -7,3 +7,7 @@ result
 *.aux
 *.log
 tmp-ly/
+
+# Script related files
+.venv/
+node_modules/
