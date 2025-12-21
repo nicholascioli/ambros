@@ -52,6 +52,13 @@
           
           musixtex-fonts
           stackengine
+          # Needed by svg
+          
+          catchfile
+          pgf
+          svg
+          transparent
+          xcolor
           ;
       };
     in {
