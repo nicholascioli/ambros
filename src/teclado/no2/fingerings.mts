@@ -7,6 +7,7 @@ import path from "node:path";
 
 import {
   ButtonBoard,
+  Note,
   NOTE_MAPPINGS,
 } from "../../../scripts/fingering/src/main.mts";
 
@@ -17,12 +18,23 @@ import type {
   Hand,
 } from "../../../scripts/fingering/src/main.mts";
 
+let button_mapper =
+  (hand: Hand, direction: Direction) =>
+  (midi_number: number, index: number): Button => {
+    return {
+      hand,
+      direction,
+      index: index + 1,
+      note: new Note(midi_number),
+    };
+  };
+
 // A filter for only accidental notes
 let accidental_notes = (b: Button) => b.note.accidental;
 
 async function render_for(hand: Hand, direction: Direction, name: string) {
   let buttons = NOTE_MAPPINGS[hand][direction]
-    .map((n) => ButtonBoard.buttonIndex(hand, direction, n))
+    .map(button_mapper(hand, direction))
     .filter(accidental_notes);
   let board = new ButtonBoard(hand);
 
