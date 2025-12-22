@@ -122,7 +122,10 @@ class Program {
       let acc_name = mode == "sharp" ? "Sharp" : "Flat";
       let acc_type = should_flip ? "Down" : "Up";
 
-      to_add.findOne(`g[inkscape|label="${acc_name} ${acc_type}"]`).show();
+      to_add
+        .findOne(`g[inkscape|label="${acc_name} ${acc_type}"]`)
+        .show()
+        .attr("stroke", "black");
     }
 
     // Add ledger lines as needed
