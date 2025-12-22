@@ -1,4 +1,4 @@
-import type { AccidentalMode } from "./mapping.mts";
+export type AccidentalMode = "sharp" | "flat" | "both";
 
 export class Note {
   name: number;
