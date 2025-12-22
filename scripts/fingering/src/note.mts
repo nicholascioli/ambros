@@ -59,7 +59,7 @@ export class Note {
 
     // Correct for flats, as they should be on the note while sharps are on the
     // same line
-    if (mode == "flat") {
+    if (mode == "flat" && this.accidental) {
       offset -= 1;
     }
 
