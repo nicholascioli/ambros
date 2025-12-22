@@ -166,7 +166,7 @@ class Program {
     console.log(`> Writing out ${output_path}`);
     await fs.writeFile(
       path.join(this.output_path, output_path),
-      rendered.svg(),
+      rendered.svg((n) => n.attr("id", null)),
     );
   }
 
