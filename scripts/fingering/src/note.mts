@@ -1,3 +1,5 @@
+import type { AccidentalMode } from "./mapping.mts";
+
 export class Note {
   name: number;
   octave: number;
@@ -39,7 +41,7 @@ export class Note {
   }
 
   // Difference in staff slots between this note and a reference
-  staff_difference(other: Note): number {
+  staff_difference(other: Note, mode: AccidentalMode): number {
     if (other.midi == this.midi) {
       return 0;
     }
@@ -54,6 +56,12 @@ export class Note {
     // Correct the inter-octave distance
     let note_distance = other.name - this.name;
     offset += note_distance;
+
+    // Correct for flats, as they should be on the note while sharps are on the
+    // same line
+    if (mode == "flat") {
+      offset -= 1;
+    }
 
     return offset;
   }

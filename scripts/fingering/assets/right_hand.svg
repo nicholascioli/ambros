@@ -156,40 +156,42 @@
        inkscape:groupmode="layer"
        id="layer4"
        inkscape:label="Keys"
-       transform="translate(-7.7427447,-2.0616415)">
+       transform="translate(-7.7427447,-2.0616415)"
+       style="stroke:#808080">
       <g
          inkscape:groupmode="layer"
          id="layer2-9-7-62-2"
          inkscape:label="38"
-         transform="translate(1.5811178,-10.400661)">
+         transform="translate(1.5811178,-10.400661)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-6"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-0"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-6"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-6"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-4"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-6"
            inkscape:label="e" />
@@ -198,35 +200,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-4"
          inkscape:label="37"
-         transform="translate(18.180044,-36.095697)">
+         transform="translate(18.180044,-36.095697)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-5"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-1"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-03"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-7"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-8"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-8"
            inkscape:label="e" />
@@ -235,35 +238,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-67"
          inkscape:label="36"
-         transform="translate(28.522904,-50.170125)">
+         transform="translate(28.522904,-50.170125)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-60"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-9"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-7"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-5"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-9"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-7"
            inkscape:label="e" />
@@ -272,35 +276,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-1"
          inkscape:label="35"
-         transform="translate(39.580389,-64.213647)">
+         transform="translate(39.580389,-64.213647)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-75"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-17"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-4"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-17"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-1"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-11"
            inkscape:label="e" />
@@ -309,35 +314,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-08"
          inkscape:label="34"
-         transform="translate(53.51058,-76.66967)">
+         transform="translate(53.51058,-76.66967)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-51"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-6"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-62"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-19"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-6"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-4"
            inkscape:label="e" />
@@ -346,35 +352,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62"
          inkscape:label="33"
-         transform="translate(9.7838927,6.6928611)">
+         transform="translate(9.7838927,6.6928611)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905"
            inkscape:label="e" />
@@ -383,35 +390,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-26"
          inkscape:label="32"
-         transform="translate(26.966304,-17.499234)">
+         transform="translate(26.966304,-17.499234)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-4"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-5"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-2"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-0"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-2"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-9"
            inkscape:label="e" />
@@ -420,35 +428,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-3"
          inkscape:label="31"
-         transform="translate(42.958151,-40.064446)">
+         transform="translate(42.958151,-40.064446)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-8"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-3"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-79"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-3"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-7"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-87"
            inkscape:label="e" />
@@ -457,35 +466,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-49"
          inkscape:label="30"
-         transform="translate(54.55509,-53.726546)">
+         transform="translate(54.55509,-53.726546)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-1"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-70"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-60"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-8"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-5"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-3"
            inkscape:label="e" />
@@ -494,35 +504,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-5"
          inkscape:label="29"
-         transform="translate(68.663944,-66.756454)">
+         transform="translate(68.663944,-66.756454)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-41"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-55"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-49"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-83"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-85"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-2"
            inkscape:label="e" />
@@ -531,35 +542,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-40"
          inkscape:label="28"
-         transform="translate(82.099158,-78.717727)">
+         transform="translate(82.099158,-78.717727)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-3"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-2"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-803"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-70"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-03"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-49"
            inkscape:label="e" />
@@ -568,35 +580,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-6"
          inkscape:label="27"
-         transform="translate(35.408856,0.14474501)">
+         transform="translate(35.408856,0.14474501)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-0"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-7"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-0"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-1"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-0"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-1"
            inkscape:label="e" />
@@ -605,35 +618,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-0"
          inkscape:label="26"
-         transform="translate(51.41451,-22.61225)">
+         transform="translate(51.41451,-22.61225)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-9"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-8"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-8"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-58"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-43"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-71"
            inkscape:label="e" />
@@ -642,35 +656,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-03"
          inkscape:label="25"
-         transform="translate(67.935519,-42.181113)">
+         transform="translate(67.935519,-42.181113)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-46"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-36"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-33"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-4"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-439"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-72"
            inkscape:label="e" />
@@ -679,35 +694,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-150"
          inkscape:label="24"
-         transform="translate(81.838087,-55.929141)">
+         transform="translate(81.838087,-55.929141)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-65"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-08"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-1"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-22"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-69"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-10"
            inkscape:label="e" />
@@ -716,35 +732,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-25"
          inkscape:label="23"
-         transform="translate(95.015739,-66.395638)">
+         transform="translate(95.015739,-66.395638)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-2"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-4"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-43"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-86"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-08"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-92"
            inkscape:label="e" />
@@ -753,35 +770,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-41"
          inkscape:label="22"
-         transform="translate(110.10729,-78.332796)">
+         transform="translate(110.10729,-78.332796)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-13"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-03"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-217"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-56"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-54"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-22"
            inkscape:label="e" />
@@ -790,35 +808,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-9"
          inkscape:label="21"
-         transform="translate(60.578695,-3.5931571)">
+         transform="translate(60.578695,-3.5931571)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-7"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-99"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-3"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-2"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-437"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-12"
            inkscape:label="e" />
@@ -827,35 +846,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-7"
          inkscape:label="20"
-         transform="translate(77.673583,-23.945467)">
+         transform="translate(77.673583,-23.945467)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-63"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-50"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-80"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-41"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-13"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-5"
            inkscape:label="e" />
@@ -864,35 +884,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-33"
          inkscape:label="19"
-         transform="translate(94.012429,-41.346152)">
+         transform="translate(94.012429,-41.346152)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-79"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-86"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-70"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-48"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-48"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-16"
            inkscape:label="e" />
@@ -901,35 +922,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-8"
          inkscape:label="18"
-         transform="translate(108.25521,-53.431056)">
+         transform="translate(108.25521,-53.431056)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-34"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-22"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-45"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-175"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-71"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-69"
            inkscape:label="e" />
@@ -938,35 +960,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-416"
          inkscape:label="17"
-         transform="translate(123.25053,-63.622665)">
+         transform="translate(123.25053,-63.622665)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-57"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-85"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-9"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-27"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-3"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-64"
            inkscape:label="e" />
@@ -975,35 +998,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-884"
          inkscape:label="16"
-         transform="translate(139.58608,-71.388303)">
+         transform="translate(139.58608,-71.388303)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-56"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-56"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-84"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-88"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-38"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-75"
            inkscape:label="e" />
@@ -1012,35 +1036,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-15"
          inkscape:label="15"
-         transform="translate(84.827647,-5.4761461)">
+         transform="translate(84.827647,-5.4761461)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-08"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-35"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-65"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-9"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-90"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-76"
            inkscape:label="e" />
@@ -1049,35 +1074,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-19"
          inkscape:label="14"
-         transform="translate(101.99113,-23.467813)">
+         transform="translate(101.99113,-23.467813)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-96"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-06"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-499"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-08"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-93"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-14"
            inkscape:label="e" />
@@ -1086,35 +1112,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-258"
          inkscape:label="13"
-         transform="translate(118.4056,-39.208879)">
+         transform="translate(118.4056,-39.208879)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-95"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-060"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-83"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-78"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-21"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-05"
            inkscape:label="e" />
@@ -1123,35 +1150,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-22"
          inkscape:label="12"
-         transform="translate(133.17076,-49.390186)">
+         transform="translate(133.17076,-49.390186)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-16"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-30"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-215"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-65"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-00"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-34"
            inkscape:label="e" />
@@ -1160,35 +1188,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-221"
          inkscape:label="11"
-         transform="translate(150.43049,-57.520153)">
+         transform="translate(150.43049,-57.520153)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-62"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-02"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-29"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-74"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-35"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-61"
            inkscape:label="e" />
@@ -1197,35 +1226,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-77"
          inkscape:label="10"
-         transform="translate(110.7568,-5.1188401)">
+         transform="translate(110.7568,-5.1188401)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-37"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-12"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-21"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-50"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-904"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-0"
            inkscape:label="e" />
@@ -1234,35 +1264,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-07"
          inkscape:label="09"
-         transform="translate(126.97881,-21.890615)">
+         transform="translate(126.97881,-21.890615)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-38"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-23"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-07"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-77"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-691"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-19"
            inkscape:label="e" />
@@ -1271,35 +1302,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-71"
          inkscape:label="08"
-         transform="translate(142.44148,-33.449862)">
+         transform="translate(142.44148,-33.449862)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-31"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-20"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-68"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-749"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-24"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-45"
            inkscape:label="e" />
@@ -1308,35 +1340,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-12"
          inkscape:label="07"
-         transform="translate(161.24751,-44.160337)">
+         transform="translate(161.24751,-44.160337)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-77"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-98"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-10"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-76"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-01"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-02"
            inkscape:label="e" />
@@ -1345,35 +1378,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-88"
          inkscape:label="06"
-         transform="translate(134.09165,-2.0159576)">
+         transform="translate(134.09165,-2.0159576)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-03"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-706"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-92"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-177"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-97"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-62"
            inkscape:label="e" />
@@ -1382,35 +1416,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-89"
          inkscape:label="05"
-         transform="translate(151.53355,-15.595638)">
+         transform="translate(151.53355,-15.595638)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-606"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-40"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-94"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-54"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-66"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-39"
            inkscape:label="e" />
@@ -1419,35 +1454,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-13"
          inkscape:label="04"
-         transform="translate(167.59751,-27.089559)">
+         transform="translate(167.59751,-27.089559)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-09"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-91"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-34"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-585"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-73"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-38"
            inkscape:label="e" />
@@ -1456,35 +1492,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-54"
          inkscape:label="03"
-         transform="translate(159.18937,2.8804751)">
+         transform="translate(159.18937,2.8804751)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-24"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-999"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-498"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-16"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-39"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-33"
            inkscape:label="e" />
@@ -1493,35 +1530,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-38"
          inkscape:label="02"
-         transform="translate(178.0434,-8.4966082)">
+         transform="translate(178.0434,-8.4966082)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-603"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-361"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-87"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-05"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-11"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-03"
            inkscape:label="e" />
@@ -1530,35 +1568,36 @@
          inkscape:groupmode="layer"
          id="layer2-9-7-62-56"
          inkscape:label="01"
-         transform="translate(186.32812,10.251109)">
+         transform="translate(186.32812,10.251109)"
+         style="stroke:#808080">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            id="path1-84-2-12-17"
            cx="11.956945"
            cy="86.125969"
            r="5.2143068" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2481784,80.91166 H 17.351056"
            id="path2-81-8-0-229"
            inkscape:label="f" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2492309,83.721284 H 17.352109"
            id="path2-2-03-29-73-28"
            inkscape:label="d" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2953308,86.246483 H 17.398209"
            id="path2-0-04-96-1-12"
            inkscape:label="b" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.1616269,88.707391 H 17.264505"
            id="path2-6-44-0-1-47"
            inkscape:label="g" />
         <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+           style="fill:none;stroke:#808080;stroke-width:0.264583;stroke-opacity:1"
            d="M 6.2765173,91.281513 H 17.379395"
            id="path2-7-47-27-905-86"
            inkscape:label="e" />

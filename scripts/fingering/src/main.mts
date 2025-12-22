@@ -4,7 +4,7 @@ import path from "node:path";
 import { createSVGWindow } from "svgdom";
 import { Element, SVG, registerWindow } from "@svgdotjs/svg.js";
 
-import type { MappingReference, Mappings } from "./mapping.mts";
+import type { AccidentalMode, Mappings, OutputOptions } from "./mapping.mts";
 import { Note } from "./note.mts";
 
 interface RenderTarget {
@@ -88,16 +88,75 @@ class Program {
     this.right_svg = await load("right_hand.svg");
   }
 
+  renderNote(
+    svg: Element,
+    btn_ref: Element,
+    note: Note,
+    staff: StaffReference,
+    mode: AccidentalMode,
+    x_offset: number,
+  ) {
+    let to_add: Element = svg
+      .clone(true)
+      .insertAfter(btn_ref.parent().last())
+      .show();
+    let note_head = to_add.findOne('path[inkscape|label="head"]') as Element;
+    let space_offset = note_head.rbox().height / 2;
+
+    // Center it on the staff, moving it to the correct line / space on the staff
+    let staff_offset = note.staff_difference(staff.align_at, mode);
+    to_add.translate(
+      btn_ref.cx() - staff.offset.x + x_offset,
+      btn_ref.cy() - staff.offset.y + staff_offset * space_offset,
+    );
+
+    // Fix flipping if above the reference note
+    let should_flip = note.midi >= staff.flip_at.midi;
+    if (should_flip) {
+      let note_size = note_head.bbox();
+      to_add.flip("both", { x: note_size.cx, y: note_size.cy } as any);
+    }
+
+    // Add accidental if needed
+    if (note.accidental) {
+      let acc_name = mode == "sharp" ? "Sharp" : "Flat";
+      let acc_type = should_flip ? "Down" : "Up";
+
+      to_add.findOne(`g[inkscape|label="${acc_name} ${acc_type}"]`).show();
+    }
+
+    // Add ledger lines as needed
+    if (note.midi < staff.bottom.midi || note.midi > staff.top.midi) {
+      let distance = Math.abs(
+        note.staff_difference(
+          note.midi < staff.bottom.midi ? staff.bottom : staff.top,
+          mode,
+        ),
+      );
+
+      let ledger_type = distance % 2 == 0 ? "Adjacent" : "Through";
+      to_add.findOne(`path[inkscape|label="${ledger_type}"]`).show();
+
+      // Add all other ledger lines as needed
+      let needed = Math.ceil(distance / 2);
+      for (let i = 1; i < needed; ++i) {
+        to_add.findOne(`path[inkscape|label="${ledger_type}-${i}"]`).show();
+      }
+    }
+  }
+
   async render(
     output_path: string,
     target: RenderTarget,
     staff: StaffReference,
-    use_flat: boolean,
+    accidental_mode: AccidentalMode,
   ) {
     console.log(`Rendering to ${output_path}...`);
 
     let rendered = target.svg.clone(true);
-    let note = rendered.findOne("g[inkscape|label='Note']").hide() as Element;
+    let note_svg = rendered
+      .findOne("g[inkscape|label='Note']")
+      .hide() as Element;
 
     let keys = rendered.findOne("g[inkscape|label='Keys']").children();
     keys.sort(
@@ -116,50 +175,20 @@ class Program {
       }
 
       console.log(
-        `> Looking at ${note.attr("inkscape:label")} with note number ${JSON.stringify(midi)}`,
-      );
-      let to_add: Element = note.clone(true).insertBefore(key.first()).show();
-      let note_head = to_add.findOne('path[inkscape|label="head"]') as Element;
-      let space_offset = note_head.rbox().height / 2;
-
-      // Center it on the staff, moving it to the correct line / space on the staff
-      let staff_offset = midi.staff_difference(staff.align_at);
-      to_add.translate(
-        circle.cx() - staff.offset.x,
-        circle.cy() - staff.offset.y + staff_offset * space_offset,
+        `> Looking at ${note_svg.attr("inkscape:label")} with note number ${JSON.stringify(midi)}`,
       );
 
-      // Fix flipping if above the reference note
-      let should_flip = midi.midi >= staff.flip_at.midi;
-      if (should_flip) {
-        let note_size = note_head.bbox();
-        to_add.flip("both", { x: note_size.cx, y: note_size.cy } as any);
-      }
+      let acc_offset = 3.2;
+      let acc_to_render: [number, AccidentalMode][] =
+        midi.accidental && accidental_mode == "both"
+          ? [
+              [acc_offset, "flat"],
+              [-acc_offset, "sharp"],
+            ]
+          : [[0, accidental_mode]];
 
-      // Add accidental if needed
-      if (midi.accidental) {
-        let acc_name = use_flat ? "Flat" : "Sharp";
-        let acc_type = should_flip ? "Down" : "Up";
-
-        to_add.findOne(`g[inkscape|label="${acc_name} ${acc_type}"]`).show();
-      }
-
-      // Add ledger lines as needed
-      if (midi.midi < staff.bottom.midi || midi.midi > staff.top.midi) {
-        let distance = Math.abs(
-          midi.staff_difference(
-            midi.midi < staff.bottom.midi ? staff.bottom : staff.top,
-          ),
-        );
-
-        let ledger_type = distance % 2 == 0 ? "Adjacent" : "Through";
-        to_add.findOne(`path[inkscape|label="${ledger_type}"]`).show();
-
-        // Add all other ledger lines as needed
-        let needed = Math.ceil(distance / 2);
-        for (let i = 1; i < needed; ++i) {
-          to_add.findOne(`path[inkscape|label="${ledger_type}-${i}"]`).show();
-        }
+      for (let [offset, mode] of acc_to_render) {
+        this.renderNote(note_svg, circle, midi, staff, mode, offset);
       }
     }
 
@@ -185,7 +214,14 @@ class Program {
 
       console.log(`Rendering ${hand} hand ${direction} diagrams...`);
       for (let output of Object.keys(outputs)) {
-        let filter = eval(outputs[output]);
+        let output_opts: OutputOptions =
+          typeof outputs[output] == "string"
+            ? {
+                filter: outputs[output],
+                accidentals: "both",
+              }
+            : (outputs[output] as OutputOptions);
+        let filter = eval(output_opts.filter);
 
         await this.render(
           `${output}.svg`,
@@ -196,7 +232,7 @@ class Program {
             filter,
           },
           staff,
-          false,
+          output_opts.accidentals,
         );
       }
     };
