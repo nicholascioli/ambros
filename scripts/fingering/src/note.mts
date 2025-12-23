@@ -1,4 +1,5 @@
 export type AccidentalMode = "sharp" | "flat" | "both";
+export type AccidentalType = "sharp" | "flat" | "double_sharp" | "double_flat";
 
 export class Note {
   name: number;

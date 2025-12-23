@@ -6,7 +6,7 @@ import { type Element, SVG, registerWindow } from "@svgdotjs/svg.js";
 
 import { type Direction, type Hand } from "./main.mts";
 import { Measurements, type StaffReference } from "./measurements.mts";
-import { type AccidentalMode, Note } from "./note.mts";
+import { type AccidentalMode, type AccidentalType, Note } from "./note.mts";
 
 export const NOTE_MAPPINGS = {
   left: {
@@ -41,6 +41,7 @@ export const DEFAULT_RENDER_OPTIONS: RenderOptions = {
 export interface RenderOptions {
   mode: AccidentalMode;
   offset: number;
+  forceAccidental?: AccidentalType;
 }
 
 export interface Button {
@@ -106,7 +107,9 @@ export class ButtonBoard {
    * @param button The button to render
    * @param opts Optional render options for the button
    */
-  drawButton(btn: Button, opts: RenderOptions = DEFAULT_RENDER_OPTIONS) {
+  drawButton(btn: Button, options: Partial<RenderOptions>) {
+    let opts: RenderOptions = { ...DEFAULT_RENDER_OPTIONS, ...options };
+
     // Each button in the original SVG is labeled as its index, left padded with at most 1 "0"
     // e.g. button with index 5 is labeled as "05"
     let btn_ref = this.svg.findOne(
@@ -142,14 +145,26 @@ export class ButtonBoard {
     }
 
     // Add accidental if needed
-    if (btn.note.accidental) {
-      let acc_name = opts.mode == "sharp" ? "Sharp" : "Flat";
+    let add_accidental = (acc_name: string) => {
       let acc_type = should_flip ? "Down" : "Up";
 
       to_render
         .findOne(labelForElement("g", `${acc_name} ${acc_type}`))
         .show()
         .attr("stroke", "black");
+    };
+
+    // Allow the user to render a note with any accidental
+    // Otherwise, add the needed accidental symbol
+    if (opts.forceAccidental !== undefined) {
+      let acc_name = opts.forceAccidental
+        .split("_")
+        .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+        .join(" ");
+
+      add_accidental(acc_name);
+    } else if (btn.note.accidental) {
+      add_accidental(opts.mode == "sharp" ? "Sharp" : "Flat");
     }
 
     // Add ledger lines as needed
