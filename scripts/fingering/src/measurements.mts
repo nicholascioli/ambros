@@ -20,7 +20,7 @@ export interface NoteOffset {
 export class Measurements {
   static NOTE_OFFSET_LEFT: NoteOffset = {
     x: 17.5,
-    y: 17.9,
+    y: 18,
   };
   static NOTE_OFFSET_RIGHT: NoteOffset = {
     x: 13,
