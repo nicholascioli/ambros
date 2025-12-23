@@ -107,7 +107,7 @@ export class ButtonBoard {
    * @param button The button to render
    * @param opts Optional render options for the button
    */
-  drawButton(btn: Button, options: Partial<RenderOptions>) {
+  drawButton(btn: Button, options?: Partial<RenderOptions>) {
     let opts: RenderOptions = { ...DEFAULT_RENDER_OPTIONS, ...options };
 
     // Each button in the original SVG is labeled as its index, left padded with at most 1 "0"
@@ -171,7 +171,7 @@ export class ButtonBoard {
     let ledger_needed = (): boolean => {
       let bottom_acc =
         this.staff_ref.bottom.midi - (opts.mode == "sharp" ? 0 : 1);
-      let top_acc = this.staff_ref.top.midi + (opts.mode == "sharp" ? 1 : 0);
+      let top_acc = this.staff_ref.top.midi;
 
       let below_needed = btn.note.midi < bottom_acc;
       let above_needed = btn.note.midi > top_acc;

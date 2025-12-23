@@ -4585,7 +4585,7 @@
         <path style="display:none;fill:none;stroke:#000000;stroke-width:0.173615;stroke-opacity:1" d="M 10.798387,12.546654 H 15.57901" inkscape:label="Adjacent-3"></path>
         <path style="display:none;fill:none;stroke:#000000;stroke-width:0.173615;stroke-opacity:1" d="M 10.798387,14.995686 H 15.57901" inkscape:label="Adjacent-2"></path>
         <path style="display:none;fill:none;stroke:#000000;stroke-width:0.173615;stroke-opacity:1" d="M 10.798387,17.444716 H 15.57901" inkscape:label="Adjacent-1"></path>
-        <path style="display:none;fill:none;stroke:#000000;stroke-width:0.173615;stroke-opacity:1" d="M 10.798387,19.893749 H 15.57901" inkscape:label="Adjacent"></path>
+        <path style="fill: none; stroke: #000000; stroke-width: 0.173615; stroke-opacity: 1;" d="M 10.798387,19.893749 H 15.57901" inkscape:label="Adjacent"></path>
       </g>
     </g><g transform="matrix(0.22995242,0,0,0.22995242,-55.02811203092321,8.298746107366185)" inkscape:label="Note" style=";">
       <path d="m 303.13715,299.65106 c -3.39584,1.81997 -5.20528,5.11455 -4.09222,7.59296 1.18726,2.64364 5.26701,3.38972 9.10658,1.66537 3.83956,-1.72436 5.99216,-5.2694 4.8049,-7.91303 -1.18727,-2.64364 -5.26701,-3.38972 -9.10658,-1.66537 -0.23997,0.10777 -0.48628,0.19874 -0.71268,0.32007 z" style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" inkscape:label="head"></path>
