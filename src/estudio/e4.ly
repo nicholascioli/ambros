@@ -26,14 +26,14 @@ cerrar = #(define-music-function () () #{
             \clef bass
 
             \repeat volta 2 {
-               c1-5_\abrir  d-4
-                e-3_\cerrar f-2
-                g-5_\abrir  f-3
-                e-2_\cerrar d-3
+               c1-5  d-4
+                e-3 f-2
+                g-5  f-3
+                e-2 d-3
             }
 
-           c2-4_\abrir e-3 g-5 e-3
-            c-4_\cerrar e-2 c1-3
+           c2-4 e-3 g-5 e-3
+            c-4 e-2 c1-3
 
             \fine
         }
