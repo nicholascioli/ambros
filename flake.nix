@@ -25,6 +25,7 @@
           # Packages below
           
           caption
+          fancyhdr
           footmisc
           import
           latex-bin
