@@ -23,8 +23,8 @@ export class Measurements {
     y: 17.9,
   };
   static NOTE_OFFSET_RIGHT: NoteOffset = {
-    x: 10.5,
-    y: 9.25,
+    x: 13,
+    y: 13.6,
   };
 
   static LEFT_STAFF_REF: StaffReference = {

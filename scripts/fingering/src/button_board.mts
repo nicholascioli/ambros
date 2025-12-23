@@ -153,10 +153,18 @@ export class ButtonBoard {
     }
 
     // Add ledger lines as needed
-    if (
-      btn.note.midi < this.staff_ref.bottom.midi ||
-      btn.note.midi > this.staff_ref.top.midi
-    ) {
+    let ledger_needed = (): boolean => {
+      let bottom_acc =
+        this.staff_ref.bottom.midi - (opts.mode == "sharp" ? 0 : 1);
+      let top_acc = this.staff_ref.top.midi + (opts.mode == "sharp" ? 1 : 0);
+
+      let below_needed = btn.note.midi < bottom_acc;
+      let above_needed = btn.note.midi > top_acc;
+
+      return above_needed || below_needed;
+    };
+
+    if (ledger_needed()) {
       let distance = Math.abs(
         btn.note.staff_difference(
           btn.note.midi < this.staff_ref.bottom.midi
