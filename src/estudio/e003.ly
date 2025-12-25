@@ -23,8 +23,8 @@ cerrar = #(define-music-function () () #{
             g-5_\cerrar e-3
             f-2_\abrir d-4
             f-2_\cerrar d-4
-            e-5_\abrir d-4
-            e-3_\cerrar d-4
+            e-5_\abrir c-4
+            e-3_\cerrar c-4
 
             \fine
         }
