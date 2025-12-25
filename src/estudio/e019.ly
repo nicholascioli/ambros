@@ -17,6 +17,8 @@ cerrar = #(define-music-function () () #{
             c-4_\abrir d e c d e
             d-4_\cerrar e-3 d-5 c2.-4
 
+            \break
+
             \repeat volta 2 {
                 d4-3_\abrir c-4 d e-5 e c-4
                 d-4_\cerrar c-3 d-4 e-3 e e
