@@ -93,12 +93,23 @@
             ];
           };
 
-          buildInputs = [pkgs.coreutils pkgs.lilypond tex];
+          buildInputs = with pkgs;
+            [
+              coreutils
+              inkscape
+              lilypond
+              ncurses
+            ]
+            ++ [tex];
           phases = ["unpackPhase" "buildPhase" "installPhase"];
 
           buildPhase = ''
             export PATH="${pkgs.lib.makeBinPath buildInputs}";
             export HOME=$(mktemp -d)
+
+            cp -r $src build-src/
+            chmod +w ./build-src/
+            cd build-src/
 
             env \
               SOURCE_DATE_EPOCH=${toString self.lastModified} \
@@ -107,12 +118,12 @@
                 -interaction=nonstopmode \
                 -output-format=pdf \
                 -shell-escape \
-                $src/book.tex
+                book.tex
           '';
 
           installPhase = ''
             mkdir -p $out
-            cp book.pdf $out/
+            cp build-src/book.pdf $out/ambros-method.pdf
           '';
         };
       };
