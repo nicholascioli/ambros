@@ -28,3 +28,6 @@
 \include "e024.ly"
 \include "e025.ly"
 \include "e026.ly"
+\include "e027.ly"
+\include "e028.ly"
+\include "e029.ly"
